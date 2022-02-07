@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #336633;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: auto;
+    transform: translate(-50%, -50%);
+}
+
+kbd {
+    background-color: white;
+    padding: 100px 20px 40px 20px;
+    float: left;
+    border: solid 1px gray;
+}
+
+.black-keys kbd {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    padding: 50px 10px 40px 10px;
+    transform: translate(-50%, 0);
+}
